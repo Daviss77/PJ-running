@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(31, 31, 31, 0.897);
+}
+@media screen and (orientation: portrait){
+section{
+    width: 405px;
+    margin-left: 0px;
+    margin: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(106, 45, 158);
+   background-color: black;
+   border-radius: 10px;
+   box-shadow: rgba(239, 40, 173, 0.488) 1px 1px 7px;
+}
+#horas{
+    color: white;
+}
+h1{
+    width: 200px;
+    background-image: linear-gradient( to left, transparent, rgba(217, 102, 121, 0.496), transparent);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 68, 254);
+    text-shadow: 1px -1px 0px white;
+    margin-bottom: 3px; 
+    margin-left: 110px;
+    border-radius: 8px;
+}
+.d1{
+    margin-bottom: 0;
+    padding-left: 15px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836) ,#6812e09d);
+    color: whitesmoke;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.d2{
+    padding: 10px;
+    color: white;
+    padding-left: 40px;
+    background-image: url(terra.jpg);
+    background-repeat: no-repeat;
+    background-size: 640px;
+    background-position: left center;
+
+}
+
+.p1{
+ margin: 8px 5px 1px;
+}
+.p2{
+    margin:4px 5px 18px 4px ;
+    font-weight: bold;
+}
+
+.p3{
+    display: inline;
+}
+input{
+  padding: 8px 10px 5px 8px;
+  border-radius: 15px;
+  background-color: #170521c5;
+  border: 2px solid rgba(255, 255, 255, 0.848);
+  color: whitesmoke;
+}
+.bt{
+    color: white;
+    border: 1px solid white;
+    background-color: #170521c5;
+    margin: 8px 5px 5px 150px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 8px 0 8px 0;
+    box-shadow: white 1px 1px 4px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+}
