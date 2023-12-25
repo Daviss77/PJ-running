@@ -15,7 +15,7 @@ header{
 #06BF84 outro tom de verde*/
 
 body, html{
-    min-width: 380px;
+    min-width: 350px;
     max-width: 720px;
     background-image: linear-gradient(to bottom, white 20%, #2EF28B ,#2ABABD   )
 }
@@ -23,7 +23,7 @@ body, html{
     margin-top: 10px;
     background-color: rgba(161, 145, 233, 0.396);
     border-radius: 20px;
-    width: 400px;
+    width: 350px;
     margin: 8px 0 8px 8px;
     border: 1px solid black;
     box-shadow: 1px 2px 4px black;
@@ -32,7 +32,7 @@ body, html{
     margin: 8px 0 8px 8px;
     background-color: rgba(190, 233, 216, 0.884);
     border-radius: 20px;
-    width: 400px;
+    width: 350px;
     border: 1px solid black;
     box-shadow: 1px 2px 4px black;
 }
@@ -40,7 +40,7 @@ body, html{
     margin: 8px 0 8px 8px;
     background-color: rgba(190, 233, 216, 0.884);
     border-radius: 20px;
-    width: 400px;
+    width: 350px;
     border: 1px solid black;
     box-shadow: 1px 2px 4px black;
 }
@@ -48,7 +48,7 @@ body, html{
     margin: 8px 0 8px 8px;
     background-color: rgba(170, 155, 245, 0.884) ;
     border-radius: 20px;
-    width: 400px;
+    width: 350px;
     border: 1px solid black;
     box-shadow: 1px 2px 4px black;
 }
@@ -92,7 +92,7 @@ p{
 }
 .fd{
     display: block;
-    width: 400px;
+    width: 360px;
     margin: 5px 3px 8px 7px;
     border-radius: 10px;
     border: 2px solid white;
