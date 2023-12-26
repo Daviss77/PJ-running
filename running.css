@@ -77,7 +77,6 @@ p{
     margin: auto;
     margin-top: 8px;
 }
-}
 #mn{
     display: block;
 }
@@ -103,3 +102,105 @@ p{
     font-weight: bold;
     padding: 8px;
  }
+}
+
+@media screen and (orientation: landscape) {
+    header{
+    
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(216, 185, 237, 0.741), transparent);
+       }
+       /*#2EF28B verde claro
+       #2ABABD azul marinho
+       #06BF84 outro tom de verde*/
+       
+       body, html{
+           min-width: 720px;
+           background-image: linear-gradient(to bottom, white 20%, #2EF28B ,#2ABABD   )
+       }
+       .d1{
+           background-color: rgba(161, 145, 233, 0.396);
+           border-radius: 20px;
+           width: 500px;
+           margin: auto;
+           border: 1px solid black;
+           box-shadow: 1px 2px 4px black;
+       }
+       .d2{
+           margin: auto;
+           background-color: rgba(190, 233, 216, 0.884);
+           border-radius: 20px;
+           width: 500px;
+           border: 1px solid black;
+           box-shadow: 1px 2px 4px black;
+       }
+       .d3{
+           margin: auto;
+           background-color: rgba(190, 233, 216, 0.884);
+           border-radius: 20px;
+           width: 500px;
+           border: 1px solid black;
+           box-shadow: 1px 2px 4px black;
+       }
+       .d4{
+           margin: auto;
+           background-color: rgba(170, 155, 245, 0.884) ;
+           border-radius: 20px;
+           width: 500px;
+           border: 1px solid black;
+           box-shadow: 1px 2px 4px black;
+       }
+       
+       
+       p{
+           font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+           padding: 8px 5px 8px 20px;
+           font-weight: bold;
+           text-align: justify;
+           font-size: 17px;
+           
+       }
+       #redes{
+           display: none;
+       
+       }
+       #redes >a{
+           display: block;
+           padding: 8px;
+           text-decoration: none;
+           color: black;
+           width: 90px;
+           background-color: bisque;
+           border-radius: 12px;
+           margin: auto;
+           margin-top: 8px;
+       }
+       #mn{
+           display: block;
+       }
+       .t1{
+           background-image: linear-gradient(to left, transparent, white);
+           padding: 8px 50px;
+           border-radius: 8px;
+           font-family: 'Smooch Sans', arial, sans-serif;
+           font-weight: bolder;
+           text-decoration: underline 1.5px;
+           font-size: 35px;
+           margin: 8px 3px;
+       }
+       .fd{
+           display: block;
+           width: 420px;
+           margin: auto;
+           margin-top: 6px;
+           border-radius: 10px;
+           border: 2px solid white;
+       }
+       
+        footer{
+           text-align: center;
+           background-color: white;
+           font-weight: bold;
+           padding: 8px;
+        } 
+}
